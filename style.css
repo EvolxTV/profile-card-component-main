@@ -14,13 +14,22 @@
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: var(--dark-cyan);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+img {
+  margin: 0;
+  display: block;
+}
+body {
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 40vh, left 48vw top 54vh;
 }
 .bg1 {
   background-repeat: no-repeat;
@@ -120,15 +129,4 @@ hr {
 }
 #s2 {
   margin-right: 4rem;
-}
-
-@media (max-width: 1460px) {
-  .bg1 {
-    left: -15%;
-    top: -65%;
-  }
-  .bg2 {
-    bottom: -133%;
-    right: -35%;
-  }
 }
