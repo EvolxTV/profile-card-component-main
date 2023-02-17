@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--dark-cyan);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg1 {
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: -45%;
+}
+.bg2 {
+  position: absolute;
+  bottom: -100%;
+  right: -17%;
+}
+.bg2 img {
+  height: 90rem;
+}
+.card-container {
+  z-index: 1;
+  background-color: white;
+  border-radius: 1rem;
+  max-width: 21.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0.625rem 3.125rem 0.0625rem var(--very-dark-desaturated-blue);
+}
+.card-bg img {
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.card-image img {
+  border-radius: 50%;
+  border: 0.375rem solid white;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.personal-information {
+  margin-top: 4.375rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personal-information strong {
+  font-size: 1.125rem;
+  color: var(--very-dark-desaturated-blue);
+  line-height: 2;
+}
+.personal-information span {
+  color: var(--dark-gray);
+  font-weight: 400;
+  margin-left: 0.1875rem;
+}
+.personal-information p {
+  color: var(--dark-gray);
+  font-weight: 400;
+}
+hr {
+  margin-top: 1.875rem;
+  width: 100%;
+  border: 1 solid black;
+  opacity: 30%;
+  margin-bottom: 1.875rem;
+}
+.stats {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+.stats-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 0.8125rem;
+}
+
+.stats-words {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.6875rem;
+  letter-spacing: 0.0875rem;
+  color: var(--dark-gray);
+}
+#s1 {
+  margin-left: 2.875rem;
+  margin-right: 3.125rem;
+}
+#s2 {
+  margin-right: 4rem;
+}
