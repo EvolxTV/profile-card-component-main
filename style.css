@@ -96,8 +96,7 @@ body {
 hr {
   margin-top: 1.875rem;
   width: 100%;
-  border: 1 solid black;
-  opacity: 30%;
+  opacity: 20%;
   margin-bottom: 1.875rem;
 }
 .stats {
