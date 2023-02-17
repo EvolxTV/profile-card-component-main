@@ -121,3 +121,14 @@ hr {
 #s2 {
   margin-right: 4rem;
 }
+
+@media (max-width: 1440px) {
+  .bg1 {
+    left: -15%;
+    top: -65%;
+  }
+  .bg2 {
+    bottom: -133%;
+    right: -35%;
+  }
+}
